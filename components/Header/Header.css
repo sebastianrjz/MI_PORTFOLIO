@@ -1,0 +1,35 @@
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: #2b024a;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 400px;
+}
+header > nav > ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  nav > ul {
+    font-size: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex-direction: row-reverse;
+    max-width: 200px;
+    min-width: 200px;
+  }
+  h1 {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+}

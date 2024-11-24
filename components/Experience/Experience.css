@@ -1,0 +1,17 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(255, 255, 255);
+  min-width: 400px;
+}
+
+.experience ul {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 600px;
+  padding: 2rem;
+}

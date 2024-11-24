@@ -1,0 +1,16 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 20px;
+  background: #ffffff;
+  min-width: 400px;
+}
+.education > h3,
+h2,
+h4 {
+  color: black;
+}

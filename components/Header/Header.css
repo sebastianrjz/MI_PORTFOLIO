@@ -4,30 +4,32 @@ header {
   align-items: center;
   background: #2b024a;
   width: 100%;
+  min-width: 250px;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-content: stretch;
   flex-direction: column;
-  gap: 20px;
-  min-width: 400px;
+  gap: 10px;
 }
 header > nav > ul {
   display: flex;
-  gap: 20px;
   justify-content: center;
+  gap: 20px;
+  font-size: 15px;
 }
 
 @media (max-width: 500px) {
-  nav > ul {
+  header > nav > ul {
     font-size: 10px;
-    margin-left: 20px;
+    flex-direction: column;
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    flex-direction: row-reverse;
-    max-width: 200px;
-    min-width: 200px;
+    gap: 0%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
   }
+
   h1 {
     font-size: 15px;
     margin-left: 20px;

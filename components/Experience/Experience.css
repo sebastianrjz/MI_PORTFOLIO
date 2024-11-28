@@ -3,15 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  min-width: 250px;
   background-color: rgb(255, 255, 255);
-  min-width: 400px;
 }
 
 .experience ul {
   display: flex;
   flex-direction: column;
 
-  max-width: 600px;
+  max-width: 400px;
   padding: 2rem;
 }

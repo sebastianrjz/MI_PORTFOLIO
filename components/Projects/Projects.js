@@ -1,7 +1,7 @@
 import data from '../../data/data'
 import './Projects.css'
 
-const template = () => {
+const Projects = () => {
   return `
   <section class="projects" id="projects">
     <h2>Recent Projects</h2>
@@ -21,10 +21,6 @@ const template = () => {
     </ul>
   </section>
   `
-}
-
-const Projects = () => {
-  return template()
 }
 
 export default Projects

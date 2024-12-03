@@ -6,7 +6,7 @@ import Projects from '../Projects/Projects'
 
 let show = 'Experience'
 
-const template = () => {
+export const Main = () => {
   return `
   <main>
     ${AboutMe()}
@@ -20,10 +20,7 @@ const template = () => {
   </main>
   `
 }
-
-export const Main = () => {
-  return template()
-}
+export default Main
 
 export const addMainListeners = () => {
   const button = document.querySelector('#change')

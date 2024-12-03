@@ -1,7 +1,7 @@
 import data from '../../data/data'
 import './Experience.css'
 
-const template = () => {
+const Experience = () => {
   return `
   <section class="experience" id="experience">
     <h2>Experience</h2>
@@ -20,10 +20,6 @@ const template = () => {
         .join('')}
     </ul>
   </section>`
-}
-
-const Experience = () => {
-  return template()
 }
 
 export default Experience

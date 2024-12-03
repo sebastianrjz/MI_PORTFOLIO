@@ -1,6 +1,6 @@
 import './Header.css'
 
-const template = () => {
+export const Header = () => {
   return `
   <header>
     <h1>TOMAS SEBASTIAN</h1>
@@ -24,10 +24,6 @@ const template = () => {
 
   </header>
   `
-}
-
-const Header = () => {
-  return template()
 }
 
 export default Header

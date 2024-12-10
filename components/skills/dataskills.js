@@ -1,4 +1,5 @@
-// skills.js
+// /data/skill/skills.js
+
 export const skills = [
   'https://icones.pro/wp-content/uploads/2021/05/icone-html-jaune.png',
   'https://cdn-icons-png.flaticon.com/512/5968/5968242.png',
